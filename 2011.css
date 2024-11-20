@@ -1,0 +1,52 @@
+/* Nền lung linh */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Arial', sans-serif;
+}
+
+.background {
+  position: relative;
+  background: linear-gradient(120deg, #ff9a9e, #fad0c4, #fbc2eb);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.container {
+  text-align: center;
+  z-index: 2;
+}
+
+.title {
+  font-size: 3rem;
+  color: #fff;
+  text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  animation: fade-in 2s ease-in-out;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #ffe0e9;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background: #ff6f91;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background:

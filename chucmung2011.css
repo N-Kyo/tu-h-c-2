@@ -1,0 +1,11 @@
+img {
+    width: 300px; /* Đặt chiều rộng */
+    height: 200px; /* Đặt chiều cao */
+  }
+  .container {
+    text-align: center;
+  }
+  
+  img {
+    display: inline-block; /* Đảm bảo ảnh là phần tử nội dòng */
+  }
